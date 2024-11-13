@@ -894,7 +894,7 @@ $.fn.raty.defaults.cancelHint='Cancel this rating!';
                 <span class="k24-nd-font">2024-11-09 11:38:31</span><br>
                 <div class="k24-df-on k24-df-direct-row k24-df-justify-between" style="margin-top: 1%;">
                     <div style="float: left; width: 90px;" class="rating raty-icons" id="rating-11840-raty" data-target="rating-11840" data-score="5" title="gorgeous"><img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="1" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="2" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="3" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="4" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="5" title="gorgeous"><input type="hidden" name="score" value="5" readonly="readonly"></div><input id="rating-11840" type="text" value="5" name="rating-11840" style="display: none;">                    <div itemprop="reviewRating" itemtype="http://schema.org/Rating" itemscope="">
-                        <meta itemprop="ratingValue" content="'.$key['rate'].'">
+
                         <meta itemprop="bestRating" content="5">
                     </div>
                                             &nbsp;<div class="k24-outline-but-prim" style="padding: 0 5px"><i class="fa fa-check-circle k24-color-prim" aria-hidden="true"></i>&nbsp;<span class="k24-nd-font">ได้ตีแจ็กพอตแล้ว</span></div>
@@ -934,7 +934,7 @@ $.fn.raty.defaults.cancelHint='Cancel this rating!';
                 <span class="k24-nd-font">2024-10-24 13:51:19</span><br>
                 <div class="k24-df-on k24-df-direct-row k24-df-justify-between" style="margin-top: 1%;">
                     <div style="float: left; width: 90px;" class="rating raty-icons" id="rating-315-raty" data-target="rating-315" data-score="5" title="gorgeous"><img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="1" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="2" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="3" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="4" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="5" title="gorgeous"><input type="hidden" name="score" value="5" readonly="readonly"></div><input id="rating-315" type="text" value="5" name="rating-315" style="display: none;">                    <div itemprop="reviewRating" itemtype="http://schema.org/Rating" itemscope="">
-                        <meta itemprop="ratingValue" content="'.$key['rate'].'">
+
                         <meta itemprop="bestRating" content="5">
                     </div>
                                             &nbsp;<div class="k24-outline-but-prim" style="padding: 0 5px"><i class="fa fa-check-circle k24-color-prim" aria-hidden="true"></i>&nbsp;<span class="k24-nd-font">ได้ตีแจ็กพอตแล้ว</span></div>
@@ -974,7 +974,7 @@ $.fn.raty.defaults.cancelHint='Cancel this rating!';
                 <span class="k24-nd-font">2024-11-15 15:04:28</span><br>
                 <div class="k24-df-on k24-df-direct-row k24-df-justify-between" style="margin-top: 1%;">
                     <div style="float: left; width: 90px;" class="rating raty-icons" id="rating-7027-raty" data-target="rating-7027" data-score="5" title="gorgeous"><img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="1" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="2" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="3" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="4" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="5" title="gorgeous"><input type="hidden" name="score" value="5" readonly="readonly"></div><input id="rating-7027" type="text" value="5" name="rating-7027" style="display: none;">                    <div itemprop="reviewRating" itemtype="http://schema.org/Rating" itemscope="">
-                        <meta itemprop="ratingValue" content="'.$key['rate'].'">
+
                         <meta itemprop="bestRating" content="5">
                     </div>
                                             &nbsp;<div class="k24-outline-but-prim" style="padding: 0 5px"><i class="fa fa-check-circle k24-color-prim" aria-hidden="true"></i>&nbsp;<span class="k24-nd-font">ได้ตีแจ็กพอตแล้ว</span></div>
@@ -1014,7 +1014,7 @@ $.fn.raty.defaults.cancelHint='Cancel this rating!';
                 <span class="k24-nd-font">2024-11-18 09:48:29</span><br>
                 <div class="k24-df-on k24-df-direct-row k24-df-justify-between" style="margin-top: 1%;">
                     <div style="float: left; width: 90px;" class="rating raty-icons" id="rating-7160-raty" data-target="rating-7160" data-score="5" title="gorgeous"><img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="1" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="2" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="3" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="4" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="5" title="gorgeous"><input type="hidden" name="score" value="5" readonly="readonly"></div><input id="rating-7160" type="text" value="5" name="rating-7160" style="display: none;">                    <div itemprop="reviewRating" itemtype="http://schema.org/Rating" itemscope="">
-                        <meta itemprop="ratingValue" content="'.$key['rate'].'">
+
                         <meta itemprop="bestRating" content="5">
                     </div>
                                             &nbsp;<div class="k24-outline-but-prim" style="padding: 0 5px"><i class="fa fa-check-circle k24-color-prim" aria-hidden="true"></i>&nbsp;<span class="k24-nd-font">ได้ตีแจ็กพอตแล้ว</span></div>
@@ -1053,7 +1053,7 @@ $.fn.raty.defaults.cancelHint='Cancel this rating!';
                 <span class="k24-nd-font">2024-11-13 06:32:11</span><br>
                 <div class="k24-df-on k24-df-direct-row k24-df-justify-between" style="margin-top: 1%;">
                     <div style="float: left; width: 90px;" class="rating raty-icons" id="rating-17590-raty" data-target="rating-17590" data-score="5" title="gorgeous"><img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="1" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="2" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="3" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="4" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="5" title="gorgeous"><input type="hidden" name="score" value="5" readonly="readonly"></div><input id="rating-17590" type="text" value="5" name="rating-17590" style="display: none;">                    <div itemprop="reviewRating" itemtype="http://schema.org/Rating" itemscope="">
-                        <meta itemprop="ratingValue" content="'.$key['rate'].'">
+
                         <meta itemprop="bestRating" content="5">
                     </div>
                                             &nbsp;<div class="k24-outline-but-prim" style="padding: 0 5px"><i class="fa fa-check-circle k24-color-prim" aria-hidden="true"></i>&nbsp;<span class="k24-nd-font">ได้ตีแจ็กพอตแล้ว</span></div>
